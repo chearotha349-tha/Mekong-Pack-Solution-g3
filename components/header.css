@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+/* kbal */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    background-color: #fff7ed;
+
+}
+
+/* Logo */
+.logo {
+    text-decoration: none;
+    color: #f26a1b;
+}
+
+.logo-name {
+    display: block;
+    font-size: 26px;
+}
+
+.logo-tag {
+    display: block;
+    font-size: 11px;
+}
+
+/* ah nis nav */
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    margin-right: 160px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #EA580C;
+    font-size: 16px;
+}
+
+.nav a:hover,
+.nav a.active {
+    text-decoration: underline;
+}
