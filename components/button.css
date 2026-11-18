@@ -1,0 +1,16 @@
+.button-group {
+    display: flex;
+    gap: 45px;
+}
+
+.button-group a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 12px 30px;
+    border-radius: 6px;
+}
+
+.orange-btn {
+    background-color: #E9500C;
+    color: white;
+}
