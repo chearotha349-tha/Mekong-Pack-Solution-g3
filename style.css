@@ -1,0 +1,491 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+/* kbal */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 120px;
+  background-color: #fff7ed;
+
+}
+
+/* Logo */
+.logo {
+  text-decoration: none;
+  color: #f26a1b;
+}
+
+.logo-name {
+  display: block;
+  font-size: 26px;
+}
+
+.logo-tag {
+  display: block;
+  font-size: 11px;
+}
+
+/* ah nis nav */
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  margin-right: 160px;
+  
+}
+
+.nav a {
+  text-decoration: none;
+  color: #EA580C;
+  font-size: 16px;
+}
+
+.nav a:hover,
+.nav a.active {
+  text-decoration: underline;
+}
+
+/* jol hero section 1*/
+
+.hero {
+    width: 100%;
+    height: 529px;
+    background-color: #FF913E;
+
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 84%;
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7%;
+}
+
+.content {
+    width: 50%;
+}
+
+.small-text {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    color: #282018;
+}
+
+h1 {
+    font-family: 'Montserrat' ;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #151515;
+    margin-bottom: 25px;
+}
+
+.description {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #89552F;
+    margin-bottom: 25px;
+}
+
+.button-group {
+    display: flex;
+    gap: 45px;
+}
+
+.button-group a {
+    font-family: 'Inter';
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 6px;
+}
+
+.orange-btn {
+    background-color: #E9500C;
+    color: white;
+}
+
+.white-btn {
+    background-color: white;
+    color: #333;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 16px;
+    display: block;
+}
+
+/* jol dol section 2*/
+
+.pack {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+
+    .small-text {
+        font-family: 'Inter';
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #8c95a0;
+      margin-bottom: 10px;
+    }
+
+    .pack-title {
+        font-family: 'Montserrat';
+      font-size: 28px;
+      font-weight: 400;
+      color: #3e4752;
+      letter-spacing: -0.015em;
+      margin-bottom: 12px;
+    }
+
+    .pack-subtitle {
+      font-family: 'Inter';
+      font-size: 16px;
+      color: #7d8691;
+      margin-bottom: 32px;
+      line-height: 1.5;
+    }
+
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: #ffffff;
+      border: 1px solid #e9ecef;
+      border-radius: 12px;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    .product-card:hover {
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+      transform: translateY(-2px);
+    }
+
+    .card-image-wrapper {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      border-radius: 8px;
+      overflow: hidden;
+      background-color: #f6f4f2;
+      margin-bottom: 16px;
+    }
+
+    .card-image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-tag {
+        font-family: 'Inter';
+      font-size: 16px;
+      font-weight: 400;
+      color: #8c95a0;
+      margin-bottom: 6px;
+    }
+
+    .card-title {
+      font-family: 'Inter';
+      font-size: 16px;
+      font-weight: 500;
+      color: #3e4752;
+      margin-bottom: 8px;
+    }
+
+    .card-description {
+      font-family: 'Inter';
+      font-size: 16px;
+      line-height: 1.5;
+      color: #7d8691;
+      margin-bottom: 20px;
+      flex-grow: 1;
+    }
+
+    .card-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 11px 16px;
+      background-color: #e6540d;
+      color: #ffffff;
+      font-family: 'Inter';
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .card-btn:hover {
+      background-color: #cf4908;
+    }
+/* jol dol section 3*/
+
+.customer-offer{
+    width: 100%;
+    padding: 30px 3.5%;
+    height: auto;
+}
+.customer-offer h2{
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 400;
+    color: #3e4752;
+    margin-bottom: 12px;
+    padding: 0 60px;
+}
+.container-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 35px;
+    padding: 0 60px;
+    
+}
+.box{
+    padding: 40px 40px;
+    border-radius: 12px;
+    background-color: #FFFBEB;
+    margin-top: 20px;
+}
+.box p{
+    font-family: 'Inter';
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.4;
+    color: #35483F;
+}
+.box h3{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    /* jol dol section 4*/
+
+    
+.simpleway{
+    width: 100%;
+    padding: 20px 120px;
+}
+.container-number{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.child-number h2,
+.child-number h3,
+.child-number p{
+    margin-bottom: 15px;
+}
+.child-number h3{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #1f3d77;
+}
+.child-number h2{
+    font-family: 'Montserrat';
+    font-size: 32px;
+    color: #CA8A04;
+}
+.child-number p{
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #1f3d77;
+}
+.letstart{
+    padding: 40px 3.5%;
+}
+
+
+
+
+
+
+    
+
+
+
+    /* jol dol section 5*/
+
+.section5 {
+    width: 100%;
+    height: 200px;
+    background-color: #ff913f;
+    padding: 20px 120px;
+}
+
+.section5-contact h2 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    color: #252525;
+    margin-bottom: 17px;
+}
+
+.section5-contact p {
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #a85f2c;
+    margin-bottom: 19px;
+}
+
+
+  /* Footer*/
+  .footer{
+    background-color: #EA580C;
+    color: #FFF7ED;
+    padding: 50px;
+    
+}
+.footer-container{
+    display: grid;
+    gap : 35px;
+    grid-template-columns: 2fr 0.6fr 0.7fr 1.5fr;
+    padding: 50px;
+}
+.logo-footer h2{
+    font-size: 32px;
+    font-family: 'Montserrat';
+
+}
+.logo-footer span{
+    font-size: 16px;
+    font-family: 'Inter';
+    
+}
+.logo-footer p{
+    font-size: 16px;
+    font-family: 'Inter';
+    margin-top: 15px;
+}
+.footer-link{
+    font-size: 16px;
+    font-family: 'Montserrat' ;
+    display: block;
+    color: #FFF7ED;
+}
+.footer-link span{
+    font-size: 16px;
+    font-family: 'Inter';
+}
+.footer-link a{
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    margin-top: 12px;
+    color: #FFF7ED;
+}
+.footer-link a:hover{
+    text-decoration: underline;
+}
+.footer-right span{
+    font-family: 'Inter';
+    font-size: 16px;
+}
+.footer-right p{
+    font-size: 16px;
+    font-family: 'Inter';
+    margin-top: 15px;
+    color: #FFF7ED;
+}
+.right span{
+    font-family: 'Inter';
+    font-size: 16px;
+}
+.right p{
+    font-size: 16px;
+    font-family: 'Inter';
+    margin-top: 15px;
+}
+.footer-under{
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} 
+.footer-under p{
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+.social-icon{
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    right: 5px;
+}
+.social-icon a{
+    width: 26px;
+    height: 26px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+.icon {
+  display: inline-flex;
+    width: 34px;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 3px;
+}
+
