@@ -1,0 +1,98 @@
+.footer{
+    background-color: #EA580C;
+    color: #FFF7ED;
+    padding: 50px;
+}
+.footer-container{
+    display: grid;
+    gap : 35px;
+    grid-template-columns: 2fr 0.6fr 0.7fr 1.5fr;
+    padding: 50px;
+}
+.logo1 h2{
+    font-size: 32px;
+    font-family: 'Montserrat';
+    color: #FFF7ED;
+}
+.logo1 span{
+    font-size: 16px;
+    font-family: 'Inter';
+    color: #FFF7ED;
+}
+.logo1 p{
+    font-size: 16px;
+    font-family: 'Inter';
+    margin-top: 15px;
+    color: #FFF7ED;
+}
+.footer-link{
+    font-size: 16px;
+    font-family: 'Montserrat' ;
+    display: block;
+    color: #FFF7ED;
+}
+.footer-link span{
+    font-size: 16px;
+    font-family: 'Inter';
+}
+.footer-link a{
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    margin-top: 12px;
+    color: #FFF7ED;
+}
+.footer-link a:hover{
+    text-decoration: underline;
+}
+.footer-right span{
+    font-family: 'Inter';
+    font-size: 16px;
+}
+.footer-right p{
+    font-size: 16px;
+    font-family: 'Inter';
+    margin-top: 15px;
+    color: #FFF7ED;
+}
+.right span{
+    font-family: 'Inter';
+    font-size: 16px;
+}
+.right p{
+    font-size: 16px;
+    font-family: 'Inter';
+    margin-top: 15px;
+}
+.footer-under{
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} 
+.footer-under p{
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+.social-icon{
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    right: 5px;
+}
+.social-icon a{
+    width: 26px;
+    height: 26px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+}
