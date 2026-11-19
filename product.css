@@ -19,15 +19,17 @@ body {
 
 }
 
+/* kbal */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    background-color: #fff7ed;
+
+}
+
 /* Logo */
-.logo-img{
-    width: 100px;
-    height: 33px;
-}
-.logo-img img{
-    width: 100%;
-    height: 100%;
-}
 .logo {
     text-decoration: none;
     color: #f26a1b;
