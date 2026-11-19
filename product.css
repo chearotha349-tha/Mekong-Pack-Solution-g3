@@ -10,60 +10,37 @@ body {
 
 
 
-.site-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 120px;
+.header {
+    width: 100%;
+    height: 63px;
     background-color: #fff7ed;
-
-}
-
-/* kbal */
-.site-header {
+    border-top: 2px solid #333;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px 120px;
-    background-color: #fff7ed;
-
+    justify-content: space-around;
 }
 
-/* Logo */
-.logo {
-    text-decoration: none;
-    color: #f26a1b;
+.logo img {
+    width: 180px;
+    height: 53px;
+    object-fit: contain;
 }
 
-.logo-name {
-    display: block;
-    font-size: 26px;
-}
-
-.logo-tag {
-    display: block;
-    font-size: 11px;
-}
-
-/* ah nis nav */
-.nav ul {
+.menu {
+    width: 55%;
     display: flex;
-    list-style: none;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.nav li {
-    margin-right: 160px;
-
-}
-
-.nav a {
+.menu a {
     text-decoration: none;
-    color: #EA580C;
+    color: #ff4b0b;
     font-size: 16px;
+    font-family: Arial, sans-serif;
 }
 
-.nav a:hover,
-.nav a.active {
+.menu .active {
     text-decoration: underline;
 }
 
